@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f374fcce-cce0-47e7-ba12-a5861d8075f8" name="UlukbekGW" url="http://34.228.28.88">
+        <fileTransfer host="34.228.28.88" port="22" rootFolder="/mnt/www/ulukbek.growave.io" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="41d0831a-bd21-48d1-a9e7-3881be2eefa9" name="DevelopmentGW" url="http://34.228.28.88">
+        <fileTransfer host="34.228.28.88" port="22" rootFolder="/mnt/www/dev.growave.io" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
